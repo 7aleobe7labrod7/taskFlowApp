@@ -1,0 +1,57 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-sans: 'Segoe UI', system-ui, sans-serif;
+  --radius: 0.75rem;
+  --transition: 0.3s ease;
+}
+
+html { font-size: 16px; }
+
+body {
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  transition: background var(--transition), color var(--transition);
+}
+
+body.light {
+  --bg-page:        #f5f7fa;
+  --bg-surface:     #ffffff;
+  --bg-input:       #f0f2f5;
+  --text-primary:   #1a1d23;
+  --text-secondary: #5f6b7c;
+  --accent:         #4f46e5;
+  --accent-hover:   #4338ca;
+  --accent-text:    #ffffff;
+  --border:         #e2e8f0;
+  --danger:         #ef4444;
+  --badge-pending:  #fef3c7;
+  --badge-done:     #d1fae5;
+  --badge-text-p:   #92400e;
+  --badge-text-d:   #065f46;
+  background: var(--bg-page);
+  color: var(--text-primary);
+}
+
+body.dark {
+  --bg-page:        #0f1117;
+  --bg-surface:     #1c1f2e;
+  --bg-input:       #252840;
+  --text-primary:   #e8eaf6;
+  --text-secondary: #9099b5;
+  --accent:         #7c70f5;
+  --accent-hover:   #6c62e8;
+  --accent-text:    #ffffff;
+  --border:         #2e3250;
+  --danger:         #f87171;
+  --badge-pending:  #451a03;
+  --badge-done:     #022c22;
+  --badge-text-p:   #fcd34d;
+  --badge-text-d:   #6ee7b7;
+  background: var(--bg-page);
+  color: var(--text-primary);
+}
