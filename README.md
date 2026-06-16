@@ -1,11 +1,3 @@
-Escribe texto resumen para redame.md y escribeme el commit de manera profesioal nivel ingeniero infotrmatic[
-
-Aquí tienes ambos, nivel profesional de ingeniería:
-
-📄 README.md — Texto completo actualizado
-Reemplaza tu README.md actual con esto:
-
-text
 # TaskFlow — Gestor de Tareas Interactivo
 
 Aplicación web de gestión de tareas (To-Do List) desarrollada con **React 18 + Vite 5**,
