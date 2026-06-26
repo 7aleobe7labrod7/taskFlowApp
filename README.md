@@ -89,8 +89,8 @@ text
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/<usuario>/taskflow-app.git
-cd taskflow-app
+git clone https://github.com/<usuario>/taskflowApp.git
+cd taskflowApp
 
 # 2. Instalar dependencias
 npm install
